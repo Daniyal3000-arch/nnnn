@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.logo{
+    width: 100px;
+}
+
+.logo img{
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none
+}
+.pin ol {
+    display: flex;
+    gap: 5px;
+    list-style-type: none
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    padding: 10px 0px 10px 0px;
+}
+/* content area here */
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
